@@ -1,0 +1,6 @@
+---
+applications:
+- name: workshop-test
+  memory: 1024MB
+  instances: 1
+  host: bb-workshop-test

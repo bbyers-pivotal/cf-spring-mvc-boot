@@ -1,7 +1,6 @@
 applications:
 - name: workshop
-  host: workshop
-  memory: 512M
+  host: workshop-test
+  memory: 1024MB
   instances: 1
   path: ./target/cf-spring-mvc-boot-0.0.1-SNAPSHOT.jar
-  buildpack: java_buildpack_offline

@@ -1,0 +1,6 @@
+---
+applications:
+- name: workshop
+  memory: 1024MB
+  instances: 1
+  host: bb-workshop
